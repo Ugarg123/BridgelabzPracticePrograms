@@ -15,4 +15,10 @@ public class FlipCoin {
 					tails++;
 				}
 			}
+			double percentageOfTails = (tails*100)/numOfFlips;
+			double percentageOfHeads = 100 - percentageOfTails;
+			System.out.println("percentage of tails : " + percentageOfTails);
+			System.out.println("percentage of heads : " + percentageOfHeads);
+		}	
+	}
 }
